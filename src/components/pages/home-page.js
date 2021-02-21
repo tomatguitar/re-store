@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import BookList from '../book-list';
+import ShoppingCartTable from '../shopping-cart-table';
 
 const HomePage = () => {
   return (
     <div>
       <h2>HomePage</h2>
       <BookList />
-      <Link to="/cart">Cart</Link>
+      <ShoppingCartTable />
     </div>
   );
 };
