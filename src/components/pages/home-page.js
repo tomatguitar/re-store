@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div>
       <h2>HomePage</h2>
-      <BookList books={[]} />
+      <BookList />
       <Link to="/cart">Cart</Link>
     </div>
   );
